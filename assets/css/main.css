@@ -23,7 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: middle;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2835,6 +2835,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		vertical-align: middle;
 	}
 
 		ul.contact-icons li {
@@ -3496,9 +3497,9 @@ input, select, textarea {
 
 		.split .content {
 			border-right: 1px solid;
-			min-width: 70%;
+			min-width: 60%;
 			padding-right: 3rem;
-			width: 70%;
+			width: 60%;
 		}
 
 			.split .content p {
